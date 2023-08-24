@@ -1,0 +1,133 @@
+.mkl{
+  height:100%;
+    width:100%;
+    display:flex;
+}
+.container{
+    height:100%;
+    width:100%;
+    display:flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name{
+    margin-top: 20px;
+    margin-left: 20px;
+    width:20%;
+    height:100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.details{
+    margin-left: 10px;
+    background-color: rgb(26, 216, 241);
+    width:75%;
+    height:100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;  
+    font-size: 22px;
+}
+.btn{
+    width:100%;
+}
+.m1{
+    width:50%;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding:20px;
+}
+.m2{
+    width:50%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    padding:10px;
+}
+body{
+    background-color: grey;
+}
+.can{
+    border:1px solid grey;
+    margin-left: 52px;
+    margin-top: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+  
+  .input-container { /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  
+  .input-field {
+    width: 80%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+    background-color: darkblue;
+    color: whitesmoke;
+  }
+  
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 20px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 40%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }/*# sourceMappingURL=stylee.css.map */
+  
